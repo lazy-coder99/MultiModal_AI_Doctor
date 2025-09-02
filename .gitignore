@@ -1,0 +1,22 @@
+# Ignore virtual environment
+.venv/
+*.pyc
+__pycache__/
+
+# Ignore Pipenv's auto-generated envs
+*.env
+.env
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python logs or test caches
+*.log
+*.pytest_cache/
+
+# Jupyter checkpoint files (if any)
+.ipynb_checkpoints/
